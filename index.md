@@ -37,7 +37,7 @@ class RegisterScreenState extends State<RegisterScreen> {
     return Container(child: Text("Formulir"));
   }
 }
-```dart
+```
 
 
 Tambahkan komponen form pada class RegisterScreenState dengan widget yang diperlukan
@@ -64,7 +64,6 @@ class RegisterScreenState extends State<RegisterScreen> {
   }
 
   Widget nameField() {
-    //MEMBUAT TEXT INPUT 
     return TextFormField(
       decoration: InputDecoration(
         labelText: 'Nama Lengkap' 
@@ -103,19 +102,9 @@ class RegisterScreenState extends State<RegisterScreen> {
     );
   }
 }
-```dart
-
-
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-
 ```
+
+
+
+
 
