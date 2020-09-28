@@ -105,7 +105,10 @@ class RegisterScreenState extends State<RegisterScreen> {
 ```
 
 >## Form Dengan Validasi
+
 masih menggunakan program diatas ubah class RegisterScreenState seperti dibawah
+
+
 ```dart
 class RegisterScreenState extends State<RegisterScreen> with Validation {
   final formKey = GlobalKey<FormState>();
