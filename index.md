@@ -183,6 +183,7 @@ class RegisterScreenState extends State<RegisterScreen> with Validation {
   }
 }
 ```
+
 tambahkan class validation
 
 ```dart
