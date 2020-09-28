@@ -38,8 +38,11 @@ class RegisterScreenState extends State<RegisterScreen> {
   }
 }
 ```dart
+
+
 Tambahkan komponen form pada class RegisterScreenState dengan widget yang diperlukan
 dalam contoh ini akan diinput nama, email dan password
+
 ```dart
 class RegisterScreenState extends State<RegisterScreen> {
 
