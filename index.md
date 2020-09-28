@@ -182,7 +182,7 @@ class RegisterScreenState extends State<RegisterScreen> with Validation {
 ```
 tambahkan class validation
 
-``dart
+```dart
 class Validation {
   String validatePassword(String value) {
     if (value.length < 4) {
